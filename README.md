@@ -24,18 +24,18 @@ pipe() 是 rxjs 用於連接 operators 方法，用來將 Observable 物件進�
 
 ```javascript=
 export const pokemonWithPower$ = rawPokemon$.pipe(
-map((pokemon) =>
-	pokemon.map((p: Pokemon) => ({
-	...p,
-	power:
-		p.hp +
-		p.attack +
-		p.defense +
-		p.special_attack +
-		p.special_defense +
-		p.speed,
-	}))
-)
+  map((pokemon) =>
+    pokemon.map((p: Pokemon) => ({
+      ...p,
+      power:
+      p.hp +
+      p.attack +
+      p.defense +
+      p.special_attack +
+      p.special_defense +
+      p.speed,
+    }))
+  )
 );
 ```
 ### combineLatestWith 的用法
