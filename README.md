@@ -1,12 +1,12 @@
 # 使用 RxJS, TypeScript 製作 Pokemon Search Bar, Deck
 
 ## Demo
-![](./public/demo.gif)
+![](./public/images/demo.gif)
 
 ## 該專案想要練習的技術
 1. rxjs
 2. TypeScript
-3. observable-hooks
+3. observable-hooks: 
 
 ## RxJS 的概念與相關用法
 RxJS 是一個用於處理非同步事件與數據流的 library，基於「觀察者 (Observable) 模式」。
@@ -55,6 +55,15 @@ export const pokemon$ = pokemonWithPower$.pipe(
 );
 ```
 
+#### useObservableState 用法
+**程式碼範例**
+```javascript=
+const Deck = () => {
+  const deck = useObservableState(deck$, []);
+  return (...);
+};
+```
+
 ## 該專案用到的 TypeScript interface
 ![alt text](./public/images/pokemon-interface.png)
 
@@ -63,5 +72,15 @@ export const pokemon$ = pokemonWithPower$.pipe(
 [TypeScript 筆記連結](https://app.heptabase.com/w/8916a1ef3eeedf17ab4a095d61a6268f5eedd32cb7f910ee99f8b7b23de75bd6)
 
 ![alt text](./public/images/typesciprt-notes.png)
+
+## 其他 RxJS 筆記
+該部分筆記內容由 ChatGPT 生成
+| Title & Link |
+| ------------ |
+| [BehaviorSubject](./notes/BehaviorSubject.md) |
+| [什麼是 RxJS](./notes/什麼是%20RxJS.md.md) |
+
+## 參考資源
+- [React + RxJS = Reactive Global Goodness](https://youtu.be/s6nG0byDI-o?si=1IbZLKjayc75UwSo)
 
 
