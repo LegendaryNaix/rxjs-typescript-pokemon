@@ -9,7 +9,7 @@
 3. observable-hooks: combineLatestWith
 
 ## RxJS 的概念與相關用法
-RxJS 是一個用於處理非同步事件與數據流的 library，基於「觀察者 (Observable) 模式」。
+RxJS 是一個用於處理非同步事件與數據流的 library，基於「觀察者 (Observable) 模式」
 
 ### $ 符號 的意義
 在 rxjs 中的 $ 符號是一種約定成俗的命名方式，用來表示這是一個 Observable 物件
@@ -39,8 +39,7 @@ map((pokemon) =>
 );
 ```
 ### combineLatestWith 的用法
-combineLatestWith 是運算子，用於將多個 Observable 的最新值組合成一個新的 Observable。
-
+combineLatestWith 是運算子，用於將多個 Observable 的最新值組合成一個新的 Observable
 
 ```javascript=
 export const pokemon$ = pokemonWithPower$.pipe(
@@ -76,10 +75,12 @@ const Deck = () => {
 該部分筆記內容由 ChatGPT 生成
 | Title & Link |
 | ------------ |
-| [BehaviorSubject](./notes/BehaviorSubject.md) |
-| [什麼是 RxJS](./notes/什麼是%20RxJS.md.md) |
+| [什麼是 RxJS？](./notes/RxJS.md) |
+| [什麼是 BehaviorSubject？](./notes/BehaviorSubject.md) |
+| [什麼是 combineLatestWith？](./notes/combineLatestWith.md) |
+
 
 ## 參考資源
-- [React + RxJS = Reactive Global Goodness](https://youtu.be/s6nG0byDI-o?si=1IbZLKjayc75UwSo)
+[React + RxJS = Reactive Global Goodness](https://youtu.be/s6nG0byDI-o?si=1IbZLKjayc75UwSo)
 
 
