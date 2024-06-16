@@ -4,9 +4,9 @@
 ![](./public/images/demo.gif)
 
 ## 該專案練習到的技術
-1. RxJS
-2. TypeScript
-3. observable-hooks: combineLatestWith
+1. **RxJS**
+2. **TypeScript**
+3. **observable-hooks: combineLatestWith**
 
 ## RxJS 的概念與相關用法
 RxJS 是一個用於處理非同步事件與數據流的 library，基於「觀察者 (Observable) 模式」
