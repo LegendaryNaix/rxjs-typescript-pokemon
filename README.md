@@ -4,7 +4,7 @@
 ![](./public/images/demo.gif)
 
 ## 該專案練習到的技術
-1. rxjs
+1. RxJS
 2. TypeScript
 3. observable-hooks: combineLatestWith
 
@@ -12,14 +12,14 @@
 RxJS 是一個用於處理非同步事件與數據流的 library，基於「觀察者 (Observable) 模式」
 
 ### $ 符號 的意義
-在 rxjs 中的 $ 符號是一種約定成俗的命名方式，用來表示這是一個 Observable 物件
+在 RxJS 中的 $ 符號是一種約定成俗的命名方式，用來表示這是一個 Observable 物件
 
 ```javascript=
 export const rawPokemon$ = new BehaviorSubject<any>([]);
 ```
 
 ### pipe() 的用法
-pipe() 是 rxjs 用於連接 operators 方法，用來將 Observable 物件進行串接
+pipe() 是 RxJS 用於連接 operators 方法，用來將 Observable 物件進行串接
 
 
 ```javascript=
