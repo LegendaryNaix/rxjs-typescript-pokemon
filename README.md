@@ -72,7 +72,7 @@ const Deck = () => {
 ![alt text](./public/images/typesciprt-notes.png)
 
 ## 其他 RxJS 筆記
-該部分筆記內容由 ChatGPT 生成
+只有該區域的的筆記內容由 ChatGPT 生成，其他區域是個人思考並撰寫過
 | Title & Link |
 | ------------ |
 | [什麼是 RxJS？](./notes/RxJS.md) |
